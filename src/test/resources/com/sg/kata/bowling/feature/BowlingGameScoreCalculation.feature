@@ -10,9 +10,9 @@ Feature: Bowling game score calculation
 		Then the score should be <score>
 		
 	Examples:
-    | game_results_sequence   |    score   |
-    | "--------------------"  |      0     |
-    | "11111121111111111111"  |      21    |
+	| game_results_sequence   |    score   |
+	| "--------------------"  |      0     |
+	| "11111121111111111111"  |      21    |
 	| "-------/------------"  |      10    |
 	| "------4/------------"  |      10    |
 	| "------4/-----/------"  |      20    |
@@ -21,9 +21,3 @@ Feature: Bowling game score calculation
 	| "--------4/X--------"   |      30    |
 	| "5/5/5/5/5/5/5/5/5/5/5" |      150   |
 	| "XXXXXXXXXXXX"          |      300   |
-	   
-
-		
-		
-		
-		
