@@ -17,13 +17,13 @@ public class ScoreCalculator {
 	}
 
 	public int calculate() {
-		calculateScoreOfTheFirstNineFrame();
+		calculateScoreOfTheFirstNineFrames();
 		calculateScoreOfTheTenthFrame();
 		calculateBonusScore();
 		return score;
 	}
 
-	private int calculateScoreOfTheFirstNineFrame() {
+	private int calculateScoreOfTheFirstNineFrames() {
 		while (currentFrameIndex < 9) {
 			score += getScoreOfCurrentFrame();
 			currentFrameIndex++;
